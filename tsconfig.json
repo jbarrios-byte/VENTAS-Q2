@@ -1,9 +1,20 @@
-"use client"
-export default function Page() {
-  return (
-    <div className="space-y-4">
-      <h1 className="text-2xl font-bold text-white">Gestion de Agentes</h1>
-      <p className="text-gray-400">Seccion en construccion.</p>
-    </div>
-  )
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [{"name": "next"}],
+    "paths": {"@/*": ["./*"]}
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }

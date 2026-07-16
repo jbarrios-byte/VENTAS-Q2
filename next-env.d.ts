@@ -1,9 +1,5 @@
-"use client"
-export default function Page() {
-  return (
-    <div className="space-y-4">
-      <h1 className="text-2xl font-bold text-white">Tickets</h1>
-      <p className="text-gray-400">Seccion en construccion.</p>
-    </div>
-  )
-}
+/// <reference types="next" />
+/// <reference types="next/image-types/global" />
+
+// NOTE: This file should not be edited
+// see https://nextjs.org/docs/basic-features/typescript for more information.
